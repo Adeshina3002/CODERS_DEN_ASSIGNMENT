@@ -206,9 +206,9 @@ console.log(sentence.replace(/[%@#$&;]/gi,''))
 // Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
 let annualIncome = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-// let extractIncome = (/\d+/gi)
-// let extractedValues = annualIncome.match(extractIncome)
-// let additionOfValues = parseInt(extractedValues[0]) + parseInt(extractedValues[1]) + parseInt(extractedValues[2])
-// console.log(additionOfValues)
+let extractIncome = (/\d+/gi)
+let extractedValues = annualIncome.match(extractIncome)
+let additionOfValues = parseInt(extractedValues[0]) + parseInt(extractedValues[1]) + parseInt(extractedValues[2])
+console.log(additionOfValues)
 
 
